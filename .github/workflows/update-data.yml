@@ -23,13 +23,13 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Baixar e processar CSV do CNJ
-        run: python scripts/process_cnj.py --inspecionar
+      - name: Baixar e processar dados do DataJud
+        run: python scripts/process_cnj.py
 
       - name: Commitar dados atualizados
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add litigantes.json delta.json
+          git add litigantes.json delta.json fit_overrides.json
           git diff --cached --quiet || git commit -m "chore: atualizar dados CNJ [$(date +'%Y-%m-%d')]"
           git push

@@ -24,7 +24,7 @@ jobs:
           python-version: "3.11"
 
       - name: Baixar e processar CSV do CNJ
-        run: python scripts/process_cnj.py
+        run: python scripts/process_cnj.py --inspecionar
 
       - name: Commitar dados atualizados
         run: |

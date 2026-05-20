@@ -30,6 +30,6 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add litigantes.json delta.json fit_overrides.json
+          git add litigantes.json delta.json [ -f fit_overrides.json ] && git add fit_overrides.json || true
           git diff --cached --quiet || git commit -m "chore: atualizar dados CNJ [$(date +'%Y-%m-%d')]"
           git push

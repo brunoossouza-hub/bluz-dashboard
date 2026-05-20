@@ -1,40 +1,35 @@
 name: Atualizar Dados CNJ
 
 on:
-  # Roda toda segunda-feira às 7h (horário de Brasília = 10h UTC)
   schedule:
     - cron: "0 10 * * 1"
-
-  # Permite rodar manualmente pelo painel do GitHub
   workflow_dispatch:
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
   update:
     runs-on: ubuntu-latest
     permissions:
-      contents: write   # Necessário para commitar o JSON de volta
+      contents: write
 
     steps:
-      # 1. Baixa o repositório
       - name: Checkout do repositório
         uses: actions/checkout@v4
 
-      # 2. Instala Python (já vem no ubuntu-latest, mas garante a versão)
       - name: Configurar Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      # 3. Executa o script de ingestão
       - name: Baixar e processar CSV do CNJ
         run: python scripts/process_cnj.py
 
-      # 4. Commita os arquivos gerados de volta ao repositório
       - name: Commitar dados atualizados
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add litigantes.json delta.json
-          # Só commita se houver mudança
           git diff --cached --quiet || git commit -m "chore: atualizar dados CNJ [$(date +'%Y-%m-%d')]"
           git push

@@ -172,14 +172,18 @@ def baixar_csv():
 
 def inspecionar_csv(conteudo):
     """Modo diagnóstico: mostra as primeiras linhas e colunas do CSV."""
-    reader = csv.DictReader(io.StringIO(conteudo), delimiter=";")
-    print("\n=== COLUNAS ENCONTRADAS NO CSV DO CNJ ===")
-    for i, row in enumerate(reader):
-        if i == 0:
-            for j, (col, val) in enumerate(row.items()):
-                print(f"  [{j}] '{col}' → ex: '{val}'")
-        if i >= 4:
+    # Try both separators
+    for sep in [";", ","]:
+        reader = csv.DictReader(io.StringIO(conteudo), delimiter=sep)
+        rows = list(reader)
+        if rows and len(rows[0]) > 2:
             break
+    print(f"\n=== CSV: {len(rows)} linhas, separador={repr(sep)} ===")
+    print("\n=== COLUNAS E VALORES DAS PRIMEIRAS 5 LINHAS ===")
+    for i, row in enumerate(rows[:5]):
+        print(f"\n--- Linha {i+1} ---")
+        for col, val in row.items():
+            print(f"  {repr(col)}: {repr(val)}")
     print("\nAjuste as variáveis COL_* no script com os nomes corretos das colunas.")
     sys.exit(0)
 

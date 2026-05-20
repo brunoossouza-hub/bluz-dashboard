@@ -1,7 +1,3066 @@
 {
-  "gerado_em": "2026-05-20T18:49:11.023082Z",
-  "total": 0,
-  "ALL_LITIGANTES": [],
-  "segmentosBR": [],
-  "ramos": []
+  "gerado_em": "2026-05-20T19:31:17.618858+00:00",
+  "total": 300,
+  "ALL_LITIGANTES": [
+    {
+      "nome": "Instituto Nacional Do Seguro Social",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Federal",
+      "novos": 4576041,
+      "pendentes": 4286811,
+      "delta": -368168,
+      "fit": 55
+    },
+    {
+      "nome": "Sinthoresp - Sindicato Dos Trabalhadores Em Hoteis Apart Hoteis Moteis Flat'S Pensoes Hospedarias Pousadas Restaurantes Churrascarias Cantinas Pizzarias Bares Lanchonetes Sorveterias Confeitarias Docerias Buffets Fast-Foods E Assemelhados De Sao Paulo E Regiao",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 1232193,
+      "pendentes": 2249341,
+      "delta": -637111,
+      "fit": 55
+    },
+    {
+      "nome": "Caixa Economica Federal",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Federal",
+      "novos": 417369,
+      "pendentes": 843949,
+      "delta": -1997326,
+      "fit": 55
+    },
+    {
+      "nome": "Banco Bradesco S.A.",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 768396,
+      "pendentes": 711026,
+      "delta": -82497,
+      "fit": 55
+    },
+    {
+      "nome": "Ministerio Da Fazenda",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Federal",
+      "novos": 309755,
+      "pendentes": 619394,
+      "delta": -199140,
+      "fit": 55
+    },
+    {
+      "nome": "Banco Do Brasil Sa",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 472047,
+      "pendentes": 531220,
+      "delta": -119871,
+      "fit": 55
+    },
+    {
+      "nome": "Estado De Sao Paulo",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 357696,
+      "pendentes": 469421,
+      "delta": -70236,
+      "fit": 55
+    },
+    {
+      "nome": "Banco Pan S.A.",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 339107,
+      "pendentes": 376298,
+      "delta": 17621,
+      "fit": 55
+    },
+    {
+      "nome": "Banco Bmg S.A",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 299802,
+      "pendentes": 335431,
+      "delta": 13395,
+      "fit": 55
+    },
+    {
+      "nome": "Advocacia Geral Da Uniao",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Federal",
+      "novos": 282995,
+      "pendentes": 327676,
+      "delta": -53309,
+      "fit": 55
+    },
+    {
+      "nome": "Estado Do Rio Grande Do Sul",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 176559,
+      "pendentes": 281509,
+      "delta": -126927,
+      "fit": 55
+    },
+    {
+      "nome": "Banco Santander (Brasil) S.A.",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 245187,
+      "pendentes": 268922,
+      "delta": -7406,
+      "fit": 55
+    },
+    {
+      "nome": "Presidencia Da Republica",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Federal",
+      "novos": 136068,
+      "pendentes": 240599,
+      "delta": -13954,
+      "fit": 55
+    },
+    {
+      "nome": "Estado Da Bahia",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 130522,
+      "pendentes": 239906,
+      "delta": 25313,
+      "fit": 55
+    },
+    {
+      "nome": "Estado De Minas Gerais",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 117300,
+      "pendentes": 233169,
+      "delta": -19815,
+      "fit": 55
+    },
+    {
+      "nome": "Itau Unibanco S.A.",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 190009,
+      "pendentes": 218849,
+      "delta": -25038,
+      "fit": 55
+    },
+    {
+      "nome": "Estado Do Rio De Janeiro",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 113927,
+      "pendentes": 186370,
+      "delta": -6479,
+      "fit": 55
+    },
+    {
+      "nome": "Banco Agibank S.A",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 155384,
+      "pendentes": 148122,
+      "delta": 56358,
+      "fit": 55
+    },
+    {
+      "nome": "Banco Bradesco Financiamentos S.A.",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 100715,
+      "pendentes": 123501,
+      "delta": -32154,
+      "fit": 55
+    },
+    {
+      "nome": "Estado Do Parana",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 77704,
+      "pendentes": 109265,
+      "delta": -76427,
+      "fit": 55
+    },
+    {
+      "nome": "Azul Linhas Aereas Brasileiras S.A.",
+      "seg": "Energia E Infraestrutura",
+      "sub": "Logística E Transportes",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 189666,
+      "pendentes": 107521,
+      "delta": 32822,
+      "fit": 55
+    },
+    {
+      "nome": "Telefonica Brasil S.A.",
+      "seg": "Tecnologia E Inovação",
+      "sub": "Telecomunicações",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 109582,
+      "pendentes": 106917,
+      "delta": -36460,
+      "fit": 55
+    },
+    {
+      "nome": "Facta Financeira S.A. Credito, Financiamento E Investimento",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 110161,
+      "pendentes": 105187,
+      "delta": 35505,
+      "fit": 55
+    },
+    {
+      "nome": "Banco Itau Consignado S.A.",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 72956,
+      "pendentes": 99349,
+      "delta": -21978,
+      "fit": 55
+    },
+    {
+      "nome": "Oi S.A. - Em Recuperacao Judicial",
+      "seg": "Tecnologia E Inovação",
+      "sub": "Telecomunicações",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 60396,
+      "pendentes": 98285,
+      "delta": -82741,
+      "fit": 55
+    },
+    {
+      "nome": "Estado De Santa Catarina",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 108158,
+      "pendentes": 94482,
+      "delta": -27426,
+      "fit": 55
+    },
+    {
+      "nome": "Municipio De Sao Paulo",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 48152,
+      "pendentes": 89618,
+      "delta": -6320,
+      "fit": 55
+    },
+    {
+      "nome": "Estado De Goias",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 100221,
+      "pendentes": 89107,
+      "delta": -21741,
+      "fit": 55
+    },
+    {
+      "nome": "Banco Daycoval S.A.",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 79721,
+      "pendentes": 87791,
+      "delta": 12279,
+      "fit": 55
+    },
+    {
+      "nome": "Aymore Credito, Financiamento E Investimento S.A.",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 79990,
+      "pendentes": 86738,
+      "delta": -63,
+      "fit": 55
+    },
+    {
+      "nome": "Empresa Brasileira De Correios E Telegrafos",
+      "seg": "Energia E Infraestrutura",
+      "sub": "Logística E Transportes",
+      "ramo": "Justiça do Trabalho",
+      "novos": 68360,
+      "pendentes": 81795,
+      "delta": -5578,
+      "fit": 55
+    },
+    {
+      "nome": "Light Servicos De Eletricidade S A",
+      "seg": "Energia E Infraestrutura",
+      "sub": "Concessionárias De Serviços Públicos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 75168,
+      "pendentes": 80749,
+      "delta": -9120,
+      "fit": 55
+    },
+    {
+      "nome": "Banco Mercantil Do Brasil Sa",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 72403,
+      "pendentes": 80040,
+      "delta": 16641,
+      "fit": 55
+    },
+    {
+      "nome": "Crefisa Sa Credito Financiamento E Investimentos",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 61716,
+      "pendentes": 75968,
+      "delta": 13034,
+      "fit": 55
+    },
+    {
+      "nome": "Claro S.A.",
+      "seg": "Tecnologia E Inovação",
+      "sub": "Telecomunicações",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 86177,
+      "pendentes": 75152,
+      "delta": -28916,
+      "fit": 55
+    },
+    {
+      "nome": "Comando Da Marinha",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Federal",
+      "novos": 4340,
+      "pendentes": 74835,
+      "delta": -52187,
+      "fit": 55
+    },
+    {
+      "nome": "Sao Paulo Previdencia - Spprev",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 57062,
+      "pendentes": 73222,
+      "delta": -3249,
+      "fit": 55
+    },
+    {
+      "nome": "Ampla Energia E Servicos S.A.",
+      "seg": "Energia E Infraestrutura",
+      "sub": "Concessionárias De Serviços Públicos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 62611,
+      "pendentes": 72375,
+      "delta": -4907,
+      "fit": 55
+    },
+    {
+      "nome": "Banco Votorantim S.A.",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 60849,
+      "pendentes": 69596,
+      "delta": 2410,
+      "fit": 55
+    },
+    {
+      "nome": "Facebook Servicos Online Do Brasil Ltda.",
+      "seg": "Serviços Profissionais",
+      "sub": "Empresas De Serviços",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 89054,
+      "pendentes": 68290,
+      "delta": 22559,
+      "fit": 55
+    },
+    {
+      "nome": "Banco C6 Consignado S.A.",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 48822,
+      "pendentes": 68099,
+      "delta": -2035,
+      "fit": 55
+    },
+    {
+      "nome": "Hurb Technologies S.A.",
+      "seg": "Serviços Profissionais",
+      "sub": "Empresas De Serviços",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 69352,
+      "pendentes": 66908,
+      "delta": -17520,
+      "fit": 55
+    },
+    {
+      "nome": "Tam Linhas Aereas S/A.",
+      "seg": "Energia E Infraestrutura",
+      "sub": "Logística E Transportes",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 107544,
+      "pendentes": 66636,
+      "delta": 11975,
+      "fit": 55
+    },
+    {
+      "nome": "Estado Do Rio Grande Do Norte",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 88600,
+      "pendentes": 66430,
+      "delta": -20610,
+      "fit": 55
+    },
+    {
+      "nome": "Banco Do Estado Do Rio Grande Do Sul Sa",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 46388,
+      "pendentes": 65846,
+      "delta": 2088,
+      "fit": 55
+    },
+    {
+      "nome": "Roberio Jose Dos Santos 16952477870",
+      "seg": "Imobiliário E Construção Civil",
+      "sub": "Construtoras",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 9577,
+      "pendentes": 65618,
+      "delta": -11210,
+      "fit": 55
+    },
+    {
+      "nome": "Ministerio Publico Do Estado De Sao Paulo",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 105652,
+      "pendentes": 61700,
+      "delta": -8461,
+      "fit": 55
+    },
+    {
+      "nome": "Estado De Mato Grosso",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 74260,
+      "pendentes": 59773,
+      "delta": -13534,
+      "fit": 55
+    },
+    {
+      "nome": "Gol Linhas Aereas S.A.",
+      "seg": "Energia E Infraestrutura",
+      "sub": "Logística E Transportes",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 98577,
+      "pendentes": 59754,
+      "delta": 4734,
+      "fit": 55
+    },
+    {
+      "nome": "Petroleo Brasileiro S A Petrobras",
+      "seg": "Indústria E Manufatura",
+      "sub": "Empresas De Transformação",
+      "ramo": "Justiça do Trabalho",
+      "novos": 34244,
+      "pendentes": 59645,
+      "delta": -12913,
+      "fit": 55
+    },
+    {
+      "nome": "Estado De Pernambuco",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 35872,
+      "pendentes": 57611,
+      "delta": -7354,
+      "fit": 55
+    },
+    {
+      "nome": "Estado Do Maranhao",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 35758,
+      "pendentes": 55552,
+      "delta": -30328,
+      "fit": 55
+    },
+    {
+      "nome": "Banco Itaucard S.A.",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 41563,
+      "pendentes": 54703,
+      "delta": -11431,
+      "fit": 55
+    },
+    {
+      "nome": "Municipio De Rio De Janeiro",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 42179,
+      "pendentes": 54348,
+      "delta": -6886,
+      "fit": 55
+    },
+    {
+      "nome": "Via S.A.",
+      "seg": "Varejo E E-Commerce",
+      "sub": "Plataformas De Comércio Eletrônico",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 53884,
+      "pendentes": 53483,
+      "delta": -3569,
+      "fit": 55
+    },
+    {
+      "nome": "Vale S.A.",
+      "seg": "Indústria E Manufatura",
+      "sub": "Empresas De Transformação",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 27132,
+      "pendentes": 53043,
+      "delta": -23628,
+      "fit": 55
+    },
+    {
+      "nome": "Banco Safra S A",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 43413,
+      "pendentes": 51101,
+      "delta": -123,
+      "fit": 55
+    },
+    {
+      "nome": "Fundo Nacional De Desenvolvimento Da Educacao",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Federal",
+      "novos": 39333,
+      "pendentes": 48890,
+      "delta": -5452,
+      "fit": 55
+    },
+    {
+      "nome": "Nu Pagamentos S.A. - Instituicao De Pagamento",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 55502,
+      "pendentes": 48469,
+      "delta": 9677,
+      "fit": 55
+    },
+    {
+      "nome": "Ministerio Publico Do Estado Do Parana",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 56408,
+      "pendentes": 45735,
+      "delta": 4817,
+      "fit": 55
+    },
+    {
+      "nome": "Conafer Confederacao Nacional Dos Agricultores Familiares E Empreend.Fami.Rurais Do Brasil",
+      "seg": "Serviços Profissionais",
+      "sub": "Empresas De Serviços",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 61720,
+      "pendentes": 45359,
+      "delta": 19311,
+      "fit": 55
+    },
+    {
+      "nome": "Estado Da Paraiba",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 24584,
+      "pendentes": 44843,
+      "delta": -23509,
+      "fit": 55
+    },
+    {
+      "nome": "Banco C6 S.A.",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 43293,
+      "pendentes": 44709,
+      "delta": 5416,
+      "fit": 55
+    },
+    {
+      "nome": "Estado De Mato Grosso Do Sul",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 34506,
+      "pendentes": 44601,
+      "delta": -8796,
+      "fit": 55
+    },
+    {
+      "nome": "Instituto De Previdencia Do Estado Do Rio Grande Do Sul",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 49325,
+      "pendentes": 43996,
+      "delta": -532,
+      "fit": 55
+    },
+    {
+      "nome": "Estado Do Amazonas",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 39231,
+      "pendentes": 43875,
+      "delta": 2850,
+      "fit": 55
+    },
+    {
+      "nome": "Sul America Companhia De Seguro Saude",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 40433,
+      "pendentes": 43239,
+      "delta": 905,
+      "fit": 55
+    },
+    {
+      "nome": "Departamento Estadual De Transito",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 37178,
+      "pendentes": 43124,
+      "delta": 2978,
+      "fit": 55
+    },
+    {
+      "nome": "Bradesco Saude S/A",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 40963,
+      "pendentes": 42968,
+      "delta": 3142,
+      "fit": 55
+    },
+    {
+      "nome": "Banco Master S/A",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 42788,
+      "pendentes": 42262,
+      "delta": 14337,
+      "fit": 55
+    },
+    {
+      "nome": "Associacao De Aposentados Mutualista Para Beneficios Coletivos - Ambec",
+      "seg": "Serviços Profissionais",
+      "sub": "Empresas De Serviços",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 60667,
+      "pendentes": 42233,
+      "delta": 21182,
+      "fit": 55
+    },
+    {
+      "nome": "Companhia De Eletricidade Do Estado Da Bahia Coelba",
+      "seg": "Energia E Infraestrutura",
+      "sub": "Concessionárias De Serviços Públicos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 46912,
+      "pendentes": 42124,
+      "delta": -4037,
+      "fit": 55
+    },
+    {
+      "nome": "Ministerio Publico Da Uniao",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Federal",
+      "novos": 45191,
+      "pendentes": 42074,
+      "delta": -5652,
+      "fit": 55
+    },
+    {
+      "nome": "Distrito Federal",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 54346,
+      "pendentes": 41724,
+      "delta": -50833,
+      "fit": 55
+    },
+    {
+      "nome": "Estado Do Tocantins",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 36264,
+      "pendentes": 40978,
+      "delta": -16492,
+      "fit": 55
+    },
+    {
+      "nome": "Amil Assistencia Medica Internacional S.A.",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 33618,
+      "pendentes": 40940,
+      "delta": 1024,
+      "fit": 55
+    },
+    {
+      "nome": "Fundo De Investimento Em Direitos Creditorios Multsegmentos Npl Ipanema Vi - Nao Padronizado",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 56271,
+      "pendentes": 40915,
+      "delta": -19061,
+      "fit": 55
+    },
+    {
+      "nome": "Banco Cetelem S.A.",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 28325,
+      "pendentes": 40368,
+      "delta": -16459,
+      "fit": 55
+    },
+    {
+      "nome": "Irmandade Benef Da Santa Casa Da Misericordia De Fort",
+      "seg": "Saúde E Ciências Da Vida",
+      "sub": "Operadoras De Plano De Saúde",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 31500,
+      "pendentes": 40233,
+      "delta": -8089,
+      "fit": 55
+    },
+    {
+      "nome": "Companhia De Desenvolvimento Habitacional E Urbano Do Estado De Sao Paulo - Cdhu",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 8022,
+      "pendentes": 39857,
+      "delta": -18962,
+      "fit": 55
+    },
+    {
+      "nome": "Mercado Pago Instituicao De Pagamento Ltda",
+      "seg": "Serviços Profissionais",
+      "sub": "Empresas De Serviços",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 46707,
+      "pendentes": 39749,
+      "delta": 7994,
+      "fit": 55
+    },
+    {
+      "nome": "Seguradora Lider Do Consorcio Do Seguro Dpvat Sa",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 10079,
+      "pendentes": 38846,
+      "delta": -28135,
+      "fit": 55
+    },
+    {
+      "nome": "Municipio De Salvador",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 15899,
+      "pendentes": 37919,
+      "delta": 515,
+      "fit": 55
+    },
+    {
+      "nome": "Estado Do Ceara",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 19186,
+      "pendentes": 36075,
+      "delta": -23050,
+      "fit": 55
+    },
+    {
+      "nome": "Estado Do Para",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 29170,
+      "pendentes": 35650,
+      "delta": -2145,
+      "fit": 55
+    },
+    {
+      "nome": "Enel Brasil S.A",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 19785,
+      "pendentes": 35487,
+      "delta": -16637,
+      "fit": 55
+    },
+    {
+      "nome": "Tim S A",
+      "seg": "Tecnologia E Inovação",
+      "sub": "Telecomunicações",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 48792,
+      "pendentes": 34135,
+      "delta": -1522,
+      "fit": 55
+    },
+    {
+      "nome": "Estado De Alagoas",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 16320,
+      "pendentes": 33658,
+      "delta": 283,
+      "fit": 55
+    },
+    {
+      "nome": "Ativos S.A. Securitizadora De Creditos Financeiros",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 37723,
+      "pendentes": 33055,
+      "delta": -15167,
+      "fit": 55
+    },
+    {
+      "nome": "Ministerio Publico Do Estado Do Rio De Janeiro",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 26041,
+      "pendentes": 32871,
+      "delta": -5901,
+      "fit": 55
+    },
+    {
+      "nome": "Fundo De Investimento Em Direitos Creditorios Nao Padronizados Npl  Ii",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 35590,
+      "pendentes": 32584,
+      "delta": -19951,
+      "fit": 55
+    },
+    {
+      "nome": "Banco Inter S.A",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 30713,
+      "pendentes": 31847,
+      "delta": 4814,
+      "fit": 55
+    },
+    {
+      "nome": "Bv Financeira Sa Credito Financiamento E Investimento",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 12213,
+      "pendentes": 31660,
+      "delta": -16919,
+      "fit": 55
+    },
+    {
+      "nome": "Banco Ole Consignado S.A.",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 24004,
+      "pendentes": 31493,
+      "delta": -6613,
+      "fit": 55
+    },
+    {
+      "nome": "Secretaria De Estado Da Saude",
+      "seg": "Saúde E Ciências Da Vida",
+      "sub": "Operadoras De Plano De Saúde",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 21991,
+      "pendentes": 30915,
+      "delta": -10621,
+      "fit": 55
+    },
+    {
+      "nome": "Aguas Do Rio 4 Spe S.A",
+      "seg": "Energia E Infraestrutura",
+      "sub": "Concessionárias De Serviços Públicos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 33150,
+      "pendentes": 30727,
+      "delta": 1909,
+      "fit": 55
+    },
+    {
+      "nome": "Hapvida Assistencia Medica S.A.",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 27834,
+      "pendentes": 30704,
+      "delta": 6139,
+      "fit": 55
+    },
+    {
+      "nome": "Serasa S.A.",
+      "seg": "Serviços Profissionais",
+      "sub": "Empresas De Serviços",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 34909,
+      "pendentes": 30105,
+      "delta": -3486,
+      "fit": 55
+    },
+    {
+      "nome": "Controladoria-Geral Da Uniao",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Federal",
+      "novos": 52683,
+      "pendentes": 29973,
+      "delta": 10576,
+      "fit": 55
+    },
+    {
+      "nome": "Itau Unibanco Holding S.A.",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 34991,
+      "pendentes": 29941,
+      "delta": 5787,
+      "fit": 55
+    },
+    {
+      "nome": "Central Nacional Unimed - Cooperativa Central",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 30897,
+      "pendentes": 29615,
+      "delta": 2750,
+      "fit": 55
+    },
+    {
+      "nome": "Estado De Sergipe",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 26116,
+      "pendentes": 29037,
+      "delta": -22423,
+      "fit": 55
+    },
+    {
+      "nome": "Pagseguro Internet Instituicao De Pagamento S.A.",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 31252,
+      "pendentes": 28893,
+      "delta": 4758,
+      "fit": 55
+    },
+    {
+      "nome": "Nu Financeira S.A. - Sociedade De Credito, Financiamento E Investimento",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 35206,
+      "pendentes": 27900,
+      "delta": 9806,
+      "fit": 55
+    },
+    {
+      "nome": "Magazine Luiza S/A",
+      "seg": "Varejo E E-Commerce",
+      "sub": "Plataformas De Comércio Eletrônico",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 35107,
+      "pendentes": 27823,
+      "delta": -1439,
+      "fit": 55
+    },
+    {
+      "nome": "Empresa Baiana De Aguas E Saneamento Sa",
+      "seg": "Energia E Infraestrutura",
+      "sub": "Concessionárias De Serviços Públicos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 31770,
+      "pendentes": 27772,
+      "delta": -1224,
+      "fit": 55
+    },
+    {
+      "nome": "Notre Dame Intermedica Saude S.A.",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 23619,
+      "pendentes": 27582,
+      "delta": 3211,
+      "fit": 55
+    },
+    {
+      "nome": "Uber Do Brasil Tecnologia Ltda.",
+      "seg": "Serviços Profissionais",
+      "sub": "Empresas De Serviços",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 39782,
+      "pendentes": 27315,
+      "delta": 2766,
+      "fit": 55
+    },
+    {
+      "nome": "Cemig Distribuicao S.A",
+      "seg": "Energia E Infraestrutura",
+      "sub": "Concessionárias De Serviços Públicos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 14504,
+      "pendentes": 26608,
+      "delta": -4248,
+      "fit": 55
+    },
+    {
+      "nome": "Municipio De Porto Alegre",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 19159,
+      "pendentes": 26132,
+      "delta": 2238,
+      "fit": 55
+    },
+    {
+      "nome": "Municipio De Campo Grande",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 27120,
+      "pendentes": 26056,
+      "delta": 980,
+      "fit": 55
+    },
+    {
+      "nome": "Instituto Brasileiro Do Meio Ambiente E Dos Recursos Naturais Renovaveis-Ibama",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Federal",
+      "novos": 10451,
+      "pendentes": 25872,
+      "delta": -2466,
+      "fit": 55
+    },
+    {
+      "nome": "123 Viagens E Turismo Ltda.",
+      "seg": "Serviços Profissionais",
+      "sub": "Empresas De Serviços",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 22602,
+      "pendentes": 25656,
+      "delta": -26737,
+      "fit": 55
+    },
+    {
+      "nome": "Eletropaulo Metropolitana Eletricidade De Sao Paulo S.A.",
+      "seg": "Energia E Infraestrutura",
+      "sub": "Concessionárias De Serviços Públicos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 25221,
+      "pendentes": 25549,
+      "delta": -6175,
+      "fit": 55
+    },
+    {
+      "nome": "Comando Do Exercito",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Federal",
+      "novos": 1381,
+      "pendentes": 25297,
+      "delta": -16570,
+      "fit": 55
+    },
+    {
+      "nome": "Latam Airlines Group S/A",
+      "seg": "Energia E Infraestrutura",
+      "sub": "Logística E Transportes",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 43581,
+      "pendentes": 24629,
+      "delta": 4533,
+      "fit": 55
+    },
+    {
+      "nome": "1 Batalhao De Engenharia De Construcao",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Federal",
+      "novos": 1966,
+      "pendentes": 24491,
+      "delta": -17783,
+      "fit": 55
+    },
+    {
+      "nome": "Parana Banco S/A",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 22561,
+      "pendentes": 24401,
+      "delta": 7443,
+      "fit": 55
+    },
+    {
+      "nome": "Light Energia S.A",
+      "seg": "Energia E Infraestrutura",
+      "sub": "Concessionárias De Serviços Públicos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 5423,
+      "pendentes": 24285,
+      "delta": -17149,
+      "fit": 55
+    },
+    {
+      "nome": "Secretaria De Estado Da Justica",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 16055,
+      "pendentes": 24183,
+      "delta": -11704,
+      "fit": 55
+    },
+    {
+      "nome": "Copel Distribuicao S.A.",
+      "seg": "Energia E Infraestrutura",
+      "sub": "Concessionárias De Serviços Públicos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 24895,
+      "pendentes": 24182,
+      "delta": -4755,
+      "fit": 55
+    },
+    {
+      "nome": "Caixa De Assistencia Aos Aposentados E Pensionistas",
+      "seg": "Serviços Profissionais",
+      "sub": "Empresas De Serviços",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 37935,
+      "pendentes": 23836,
+      "delta": 13912,
+      "fit": 55
+    },
+    {
+      "nome": "Bradesco Vida E Previdencia S.A.",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 22179,
+      "pendentes": 23685,
+      "delta": -1966,
+      "fit": 55
+    },
+    {
+      "nome": "Samarco Mineracao S.A. Em Recuperacao Judicial",
+      "seg": "Indústria E Manufatura",
+      "sub": "Empresas De Transformação",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 4450,
+      "pendentes": 23670,
+      "delta": -28415,
+      "fit": 55
+    },
+    {
+      "nome": "Oi Movel S.A. - Em Recuperacao Judicial",
+      "seg": "Tecnologia E Inovação",
+      "sub": "Telecomunicações",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 10621,
+      "pendentes": 23494,
+      "delta": -17152,
+      "fit": 55
+    },
+    {
+      "nome": "Procuradoria-Geral Federal",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Federal",
+      "novos": 22724,
+      "pendentes": 23452,
+      "delta": -33679,
+      "fit": 55
+    },
+    {
+      "nome": "Telemar Norte Leste S/A. - Em Recuperacao Judicial",
+      "seg": "Tecnologia E Inovação",
+      "sub": "Telecomunicações",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 8287,
+      "pendentes": 23327,
+      "delta": -15126,
+      "fit": 55
+    },
+    {
+      "nome": "Rio Grande Do Sul Procuradoria Geral De Justica",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 43987,
+      "pendentes": 23175,
+      "delta": -4371,
+      "fit": 55
+    },
+    {
+      "nome": "Municipio De Belo Horizonte",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 10108,
+      "pendentes": 22813,
+      "delta": -2755,
+      "fit": 55
+    },
+    {
+      "nome": "Omni S/A Credito Financiamento E Investimento",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 21779,
+      "pendentes": 22677,
+      "delta": -1683,
+      "fit": 55
+    },
+    {
+      "nome": "Amar Brasil Clube De Beneficios",
+      "seg": "Serviços Profissionais",
+      "sub": "Empresas De Serviços",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 32298,
+      "pendentes": 22583,
+      "delta": 13917,
+      "fit": 55
+    },
+    {
+      "nome": "Universo Associacao Dos Aposentados E Pensionistas Dos Regimes Geral Da Previdencia Social",
+      "seg": "Serviços Profissionais",
+      "sub": "Empresas De Serviços",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 34135,
+      "pendentes": 22440,
+      "delta": 10992,
+      "fit": 55
+    },
+    {
+      "nome": "Municipio De Curitiba",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 11920,
+      "pendentes": 22225,
+      "delta": -4546,
+      "fit": 55
+    },
+    {
+      "nome": "Cia De Saneamento Basico Do Estado De Sao Paulo Sabesp",
+      "seg": "Energia E Infraestrutura",
+      "sub": "Concessionárias De Serviços Públicos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 21376,
+      "pendentes": 22092,
+      "delta": 2138,
+      "fit": 55
+    },
+    {
+      "nome": "Banco Bnp Paribas Brasil S.A.",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 20175,
+      "pendentes": 21815,
+      "delta": -911,
+      "fit": 55
+    },
+    {
+      "nome": "Absp- Associacao Brasileira Dos Servidores Publicos",
+      "seg": "Serviços Profissionais",
+      "sub": "Empresas De Serviços",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 35105,
+      "pendentes": 21658,
+      "delta": 13181,
+      "fit": 55
+    },
+    {
+      "nome": "Municipio De Goiania",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 37545,
+      "pendentes": 21583,
+      "delta": -711,
+      "fit": 55
+    },
+    {
+      "nome": "Porto Seguro Companhia De Seguros Gerais",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 15462,
+      "pendentes": 21118,
+      "delta": -6607,
+      "fit": 55
+    },
+    {
+      "nome": "Fundacao Nacional De Saude",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Federal",
+      "novos": 10457,
+      "pendentes": 20752,
+      "delta": -8420,
+      "fit": 55
+    },
+    {
+      "nome": "Departamento Estadual De Transito",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 16261,
+      "pendentes": 20531,
+      "delta": -1134,
+      "fit": 55
+    },
+    {
+      "nome": "Municipio De Campinas",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 12184,
+      "pendentes": 20506,
+      "delta": -30,
+      "fit": 55
+    },
+    {
+      "nome": "Fundo Unico De Previdencia Social Do Estado Do Rio De Janeiro",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 13016,
+      "pendentes": 20497,
+      "delta": -6076,
+      "fit": 55
+    },
+    {
+      "nome": "Sindicato Nacional Dos Aposentados, Pensionistas E Idosos Da Forca Sindical",
+      "seg": "Serviços Profissionais",
+      "sub": "Empresas De Serviços",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 27026,
+      "pendentes": 20456,
+      "delta": 8965,
+      "fit": 55
+    },
+    {
+      "nome": "Banco Bradescard S.A.",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 21436,
+      "pendentes": 20202,
+      "delta": -3176,
+      "fit": 55
+    },
+    {
+      "nome": "Companhia De Saneamento De Minas Gerais Copasa Mg",
+      "seg": "Energia E Infraestrutura",
+      "sub": "Concessionárias De Serviços Públicos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 8732,
+      "pendentes": 20106,
+      "delta": -2599,
+      "fit": 55
+    },
+    {
+      "nome": "Caixa Seguradora S/A",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 10220,
+      "pendentes": 19541,
+      "delta": -5029,
+      "fit": 55
+    },
+    {
+      "nome": "Companhia Estadual De Distribuicao De Energia Eletrica - Ceee-D",
+      "seg": "Energia E Infraestrutura",
+      "sub": "Concessionárias De Serviços Públicos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 13452,
+      "pendentes": 19410,
+      "delta": -346,
+      "fit": 55
+    },
+    {
+      "nome": "Samsung Eletronica Da Amazonia Ltda",
+      "seg": "Indústria E Manufatura",
+      "sub": "Empresas De Transformação",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 22991,
+      "pendentes": 19403,
+      "delta": 666,
+      "fit": 55
+    },
+    {
+      "nome": "Fundacao Centro De Atendimento Socioeducativo Ao Adolescente - Fundacao Casa - Sp",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça do Trabalho",
+      "novos": 13896,
+      "pendentes": 19009,
+      "delta": -11209,
+      "fit": 55
+    },
+    {
+      "nome": "Estado Do Piaui",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 10592,
+      "pendentes": 18786,
+      "delta": -2322,
+      "fit": 55
+    },
+    {
+      "nome": "Acolher - Associacao De Protecao E Defesa Dos Direitos Dos Aposentados E Pensionistas",
+      "seg": "Serviços Profissionais",
+      "sub": "Empresas De Serviços",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 26852,
+      "pendentes": 18664,
+      "delta": 9987,
+      "fit": 55
+    },
+    {
+      "nome": "Casa De Custodia De Viana",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 12846,
+      "pendentes": 18593,
+      "delta": -9969,
+      "fit": 55
+    },
+    {
+      "nome": "Master Prev Clube De Beneficios",
+      "seg": "Serviços Profissionais",
+      "sub": "Empresas De Serviços",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 26673,
+      "pendentes": 18375,
+      "delta": 13192,
+      "fit": 55
+    },
+    {
+      "nome": "Unimed-Rio Cooperativa De Trabalho Medico Do Rio De Janeiro Ltda",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 9103,
+      "pendentes": 18321,
+      "delta": -5641,
+      "fit": 55
+    },
+    {
+      "nome": "Companhia Energetica De Pernambuco",
+      "seg": "Energia E Infraestrutura",
+      "sub": "Concessionárias De Serviços Públicos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 14339,
+      "pendentes": 18282,
+      "delta": -2795,
+      "fit": 55
+    },
+    {
+      "nome": "Companhia Riograndense De Saneamento Corsan",
+      "seg": "Energia E Infraestrutura",
+      "sub": "Concessionárias De Serviços Públicos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 12126,
+      "pendentes": 18234,
+      "delta": 1196,
+      "fit": 55
+    },
+    {
+      "nome": "Rge Sul Distribuidora De Energia S.A.",
+      "seg": "Energia E Infraestrutura",
+      "sub": "Concessionárias De Serviços Públicos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 11492,
+      "pendentes": 18225,
+      "delta": -1870,
+      "fit": 55
+    },
+    {
+      "nome": "Amazonas Energia S.A",
+      "seg": "Energia E Infraestrutura",
+      "sub": "Concessionárias De Serviços Públicos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 31124,
+      "pendentes": 18219,
+      "delta": -129,
+      "fit": 55
+    },
+    {
+      "nome": "Banco Do Nordeste Do Brasil Sa",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 9850,
+      "pendentes": 18151,
+      "delta": -2062,
+      "fit": 55
+    },
+    {
+      "nome": "Mrv Engenharia E Participacoes Sa",
+      "seg": "Imobiliário E Construção Civil",
+      "sub": "Construtoras",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 12487,
+      "pendentes": 18112,
+      "delta": -3160,
+      "fit": 55
+    },
+    {
+      "nome": "Banco Finasa S/A.",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 20573,
+      "pendentes": 17950,
+      "delta": 2650,
+      "fit": 55
+    },
+    {
+      "nome": "Dnit-Departamento Nacional De Infraest De Transportes",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Federal",
+      "novos": 9007,
+      "pendentes": 17124,
+      "delta": -1472,
+      "fit": 55
+    },
+    {
+      "nome": "Aguas Do Rio 1 Spe S.A",
+      "seg": "Energia E Infraestrutura",
+      "sub": "Concessionárias De Serviços Públicos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 15928,
+      "pendentes": 16943,
+      "delta": 2449,
+      "fit": 55
+    },
+    {
+      "nome": "Municipio De Maceio",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 9610,
+      "pendentes": 16650,
+      "delta": 2457,
+      "fit": 55
+    },
+    {
+      "nome": "Bradesco Seguros S/A",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 15247,
+      "pendentes": 16632,
+      "delta": -1562,
+      "fit": 55
+    },
+    {
+      "nome": "Decolar. Com Ltda.",
+      "seg": "Serviços Profissionais",
+      "sub": "Empresas De Serviços",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 21957,
+      "pendentes": 16608,
+      "delta": 147,
+      "fit": 55
+    },
+    {
+      "nome": "Qualicorp Administradora De Beneficios S.A.",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 15789,
+      "pendentes": 16481,
+      "delta": 1289,
+      "fit": 55
+    },
+    {
+      "nome": "Unaspub - Uniao Nacional De Auxilio Aos Servidores Publicos",
+      "seg": "Serviços Profissionais",
+      "sub": "Empresas De Serviços",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 26107,
+      "pendentes": 16480,
+      "delta": 8860,
+      "fit": 55
+    },
+    {
+      "nome": "Companhia Brasileira De Distribuicao",
+      "seg": "Varejo E E-Commerce",
+      "sub": "Plataformas De Comércio Eletrônico",
+      "ramo": "Justiça do Trabalho",
+      "novos": 19861,
+      "pendentes": 16340,
+      "delta": -4365,
+      "fit": 55
+    },
+    {
+      "nome": "Tim Celular S.A.",
+      "seg": "Tecnologia E Inovação",
+      "sub": "Telecomunicações",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 13447,
+      "pendentes": 16286,
+      "delta": -25263,
+      "fit": 55
+    },
+    {
+      "nome": "Instituto De Previdencia Dos Servidores Militares De Mg",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 9176,
+      "pendentes": 16231,
+      "delta": 5172,
+      "fit": 55
+    },
+    {
+      "nome": "Traditio Companhia De Seguros",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 6112,
+      "pendentes": 16185,
+      "delta": -17012,
+      "fit": 55
+    },
+    {
+      "nome": "Mapfre Seguros Gerais S.A.",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 10960,
+      "pendentes": 16160,
+      "delta": -754,
+      "fit": 55
+    },
+    {
+      "nome": "Para Ministerio Publico",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 12607,
+      "pendentes": 16152,
+      "delta": -3319,
+      "fit": 55
+    },
+    {
+      "nome": "Municipio De Petropolis",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 6902,
+      "pendentes": 16146,
+      "delta": 2658,
+      "fit": 55
+    },
+    {
+      "nome": "Carrefour Comercio E Industria Ltda",
+      "seg": "Varejo E E-Commerce",
+      "sub": "Plataformas De Comércio Eletrônico",
+      "ramo": "Justiça do Trabalho",
+      "novos": 21575,
+      "pendentes": 16062,
+      "delta": -2665,
+      "fit": 55
+    },
+    {
+      "nome": "Companhia Energetica Do Ceara",
+      "seg": "Energia E Infraestrutura",
+      "sub": "Concessionárias De Serviços Públicos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 16605,
+      "pendentes": 15900,
+      "delta": -4228,
+      "fit": 55
+    },
+    {
+      "nome": "Banco Volkswagen S.A.",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 14132,
+      "pendentes": 15845,
+      "delta": 286,
+      "fit": 55
+    },
+    {
+      "nome": "Paraiba Previdencia",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 6492,
+      "pendentes": 15822,
+      "delta": -3596,
+      "fit": 55
+    },
+    {
+      "nome": "Departamento De Transito Detran",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 12571,
+      "pendentes": 15730,
+      "delta": 1845,
+      "fit": 55
+    },
+    {
+      "nome": "Unimed Do Est R J Federacao Est Das Cooperativas Med",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 13132,
+      "pendentes": 15730,
+      "delta": 3392,
+      "fit": 55
+    },
+    {
+      "nome": "Municipio De Natal",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 24216,
+      "pendentes": 15697,
+      "delta": -2883,
+      "fit": 55
+    },
+    {
+      "nome": "Companhia Estadual De Aguas E Esgotos Cedae",
+      "seg": "Energia E Infraestrutura",
+      "sub": "Concessionárias De Serviços Públicos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 8111,
+      "pendentes": 15625,
+      "delta": -3687,
+      "fit": 55
+    },
+    {
+      "nome": "Municipio De Santos",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 9003,
+      "pendentes": 15622,
+      "delta": -1631,
+      "fit": 55
+    },
+    {
+      "nome": "Paulista - Servicos De Recebimentos E Pagamentos Ltda",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 16776,
+      "pendentes": 15521,
+      "delta": 853,
+      "fit": 55
+    },
+    {
+      "nome": "Parana Tribunal De Justica",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 23997,
+      "pendentes": 15512,
+      "delta": -3570,
+      "fit": 55
+    },
+    {
+      "nome": "Fundo De Arrendamento Residencial",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 6449,
+      "pendentes": 15469,
+      "delta": -8245,
+      "fit": 55
+    },
+    {
+      "nome": "Mercadolivre.Com Atividades De Internet Ltda",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 20589,
+      "pendentes": 15396,
+      "delta": 3270,
+      "fit": 55
+    },
+    {
+      "nome": "Ministerio Publico Federal",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Federal",
+      "novos": 8245,
+      "pendentes": 15161,
+      "delta": -6392,
+      "fit": 55
+    },
+    {
+      "nome": "Seara Alimentos Ltda",
+      "seg": "Varejo E E-Commerce",
+      "sub": "Plataformas De Comércio Eletrônico",
+      "ramo": "Justiça do Trabalho",
+      "novos": 20068,
+      "pendentes": 15117,
+      "delta": -318,
+      "fit": 55
+    },
+    {
+      "nome": "Companhia Paulista De Forca E Luz",
+      "seg": "Energia E Infraestrutura",
+      "sub": "Concessionárias De Serviços Públicos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 14894,
+      "pendentes": 14934,
+      "delta": -4511,
+      "fit": 55
+    },
+    {
+      "nome": "Agibank Financeira S.A. - Credito, Financiamento E Investimento",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 14541,
+      "pendentes": 14880,
+      "delta": 4214,
+      "fit": 55
+    },
+    {
+      "nome": "Instituto De Previdencia Dos Servidores Do Estado",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 22960,
+      "pendentes": 14875,
+      "delta": -5309,
+      "fit": 55
+    },
+    {
+      "nome": "Departamento Estadual De Transito",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 6118,
+      "pendentes": 14746,
+      "delta": 338,
+      "fit": 55
+    },
+    {
+      "nome": "Secretaria De Estado De Planejamento E Gestao",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 8730,
+      "pendentes": 14706,
+      "delta": -5034,
+      "fit": 55
+    },
+    {
+      "nome": "Sao Paulo Tribunal De Justica",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Superior Tribunal de Justiça",
+      "novos": 41382,
+      "pendentes": 14543,
+      "delta": -5929,
+      "fit": 55
+    },
+    {
+      "nome": "Imobiliaria E Construtora Continental Ltda",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 701,
+      "pendentes": 14490,
+      "delta": -23010,
+      "fit": 55
+    },
+    {
+      "nome": "Estado Do Amapa",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 31574,
+      "pendentes": 14392,
+      "delta": -7201,
+      "fit": 55
+    },
+    {
+      "nome": "Municipio De Belem",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 11870,
+      "pendentes": 14380,
+      "delta": 3541,
+      "fit": 55
+    },
+    {
+      "nome": "Brb Banco De Brasilia Sa",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 16946,
+      "pendentes": 14186,
+      "delta": 2948,
+      "fit": 55
+    },
+    {
+      "nome": "Brf S.A.",
+      "seg": "Indústria E Manufatura",
+      "sub": "Empresas De Transformação",
+      "ramo": "Justiça do Trabalho",
+      "novos": 18554,
+      "pendentes": 14168,
+      "delta": -977,
+      "fit": 55
+    },
+    {
+      "nome": "Estado De Rondonia",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 18733,
+      "pendentes": 14123,
+      "delta": -5005,
+      "fit": 55
+    },
+    {
+      "nome": "Aspecir Previdencia",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 19843,
+      "pendentes": 14064,
+      "delta": 5640,
+      "fit": 55
+    },
+    {
+      "nome": "Banco Crefisa S.A.",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 12897,
+      "pendentes": 13959,
+      "delta": 6414,
+      "fit": 55
+    },
+    {
+      "nome": "Sendas Distribuidora S/A",
+      "seg": "Varejo E E-Commerce",
+      "sub": "Plataformas De Comércio Eletrônico",
+      "ramo": "Justiça do Trabalho",
+      "novos": 22725,
+      "pendentes": 13945,
+      "delta": 1050,
+      "fit": 55
+    },
+    {
+      "nome": "Bhp Billiton Brasil Ltda.",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 2662,
+      "pendentes": 13916,
+      "delta": -15261,
+      "fit": 55
+    },
+    {
+      "nome": "Rio De Janeiro Procuradoria Geral Do Estado",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 4826,
+      "pendentes": 13751,
+      "delta": -5477,
+      "fit": 55
+    },
+    {
+      "nome": "Departamento De Estradas De Rodagem",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 9781,
+      "pendentes": 13748,
+      "delta": -699,
+      "fit": 55
+    },
+    {
+      "nome": "Fundacao Getulio Vargas",
+      "seg": "Educação",
+      "sub": "Ensino Superior",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 12422,
+      "pendentes": 13698,
+      "delta": 3230,
+      "fit": 55
+    },
+    {
+      "nome": "Empresa Brasileira De Servicos Hospitalares - Ebserh",
+      "seg": "Saúde E Ciências Da Vida",
+      "sub": "Operadoras De Plano De Saúde",
+      "ramo": "Justiça Federal",
+      "novos": 12814,
+      "pendentes": 13608,
+      "delta": 2005,
+      "fit": 55
+    },
+    {
+      "nome": "Municipio De Guaruja",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 7831,
+      "pendentes": 13515,
+      "delta": 682,
+      "fit": 55
+    },
+    {
+      "nome": "Instituto De Previdencia Dos Servidores Do Estado Mg",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 5018,
+      "pendentes": 13411,
+      "delta": -10503,
+      "fit": 55
+    },
+    {
+      "nome": "Centro De Estudos Dos Beneficios Dos Aposentados E Pensionistas",
+      "seg": "Serviços Profissionais",
+      "sub": "Empresas De Serviços",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 20649,
+      "pendentes": 13311,
+      "delta": 8181,
+      "fit": 55
+    },
+    {
+      "nome": "Recovery Do Brasil Consultoria S.A",
+      "seg": "Serviços Profissionais",
+      "sub": "Empresas De Serviços",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 12927,
+      "pendentes": 13208,
+      "delta": -7336,
+      "fit": 55
+    },
+    {
+      "nome": "Companhia De Saneamento Do Parana Sanepar",
+      "seg": "Energia E Infraestrutura",
+      "sub": "Concessionárias De Serviços Públicos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 8147,
+      "pendentes": 13152,
+      "delta": -29280,
+      "fit": 55
+    },
+    {
+      "nome": "Goias Previdencia - Goiasprev",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 21880,
+      "pendentes": 13057,
+      "delta": -3382,
+      "fit": 55
+    },
+    {
+      "nome": "Banco Csf S/A",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 15053,
+      "pendentes": 13010,
+      "delta": 2343,
+      "fit": 55
+    },
+    {
+      "nome": "Allianz Seguros S/A",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 9143,
+      "pendentes": 12975,
+      "delta": 153,
+      "fit": 55
+    },
+    {
+      "nome": "Bradesco Auto/Re Companhia De Seguros",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 9519,
+      "pendentes": 12968,
+      "delta": -1779,
+      "fit": 55
+    },
+    {
+      "nome": "Instituto Nacional De Metrologia, Qualidade E Tecnologia - Inmetro.",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Federal",
+      "novos": 3775,
+      "pendentes": 12877,
+      "delta": -2863,
+      "fit": 55
+    },
+    {
+      "nome": "Equatorial Maranhao Distribuidora De Energia S.A",
+      "seg": "Energia E Infraestrutura",
+      "sub": "Concessionárias De Serviços Públicos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 12050,
+      "pendentes": 12857,
+      "delta": -2321,
+      "fit": 55
+    },
+    {
+      "nome": "Uniao Brasileira De Aposentados Da Previdencia",
+      "seg": "Serviços Profissionais",
+      "sub": "Empresas De Serviços",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 16726,
+      "pendentes": 12857,
+      "delta": 5308,
+      "fit": 55
+    },
+    {
+      "nome": "Municipio De Canoas",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 9980,
+      "pendentes": 12751,
+      "delta": 2335,
+      "fit": 55
+    },
+    {
+      "nome": "Municipio De Ribeirao Preto",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 9589,
+      "pendentes": 12691,
+      "delta": -391,
+      "fit": 55
+    },
+    {
+      "nome": "Picpay Instituicao De Pagamento S/A",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 13875,
+      "pendentes": 12635,
+      "delta": 4382,
+      "fit": 55
+    },
+    {
+      "nome": "Equatorial Para Distribuidora De Energia S.A.",
+      "seg": "Energia E Infraestrutura",
+      "sub": "Concessionárias De Serviços Públicos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 10776,
+      "pendentes": 12595,
+      "delta": -4093,
+      "fit": 55
+    },
+    {
+      "nome": "Municipio De Sorocaba",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 12382,
+      "pendentes": 12586,
+      "delta": -1634,
+      "fit": 55
+    },
+    {
+      "nome": "Secretaria Da Fazenda E Planejamento",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 6447,
+      "pendentes": 12507,
+      "delta": -9659,
+      "fit": 55
+    },
+    {
+      "nome": "Gol Linhas Aereas Inteligentes S.A.",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 18561,
+      "pendentes": 12493,
+      "delta": -2864,
+      "fit": 55
+    },
+    {
+      "nome": "Fundacao Petrobras De Seguridade Social Petros",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça do Trabalho",
+      "novos": 3960,
+      "pendentes": 12479,
+      "delta": -3722,
+      "fit": 55
+    },
+    {
+      "nome": "Municipio De Guarulhos",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 11062,
+      "pendentes": 12422,
+      "delta": -1364,
+      "fit": 55
+    },
+    {
+      "nome": "Municipio De Pelotas",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 6593,
+      "pendentes": 12417,
+      "delta": -2546,
+      "fit": 55
+    },
+    {
+      "nome": "Localiza Rent A Car Sa",
+      "seg": "Serviços Profissionais",
+      "sub": "Empresas De Serviços",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 12918,
+      "pendentes": 12408,
+      "delta": 1908,
+      "fit": 55
+    },
+    {
+      "nome": "Banco J. Safra S.A",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 9903,
+      "pendentes": 12250,
+      "delta": -1723,
+      "fit": 55
+    },
+    {
+      "nome": "Boa Vista Servicos S.A.",
+      "seg": "Serviços Profissionais",
+      "sub": "Empresas De Serviços",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 13080,
+      "pendentes": 12089,
+      "delta": -293,
+      "fit": 55
+    },
+    {
+      "nome": "Ebazar.Com.Br. Ltda",
+      "seg": "Serviços Profissionais",
+      "sub": "Empresas De Serviços",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 16099,
+      "pendentes": 12063,
+      "delta": 3317,
+      "fit": 55
+    },
+    {
+      "nome": "Ministerio Publico Do Estado De Santa Catarina Procuradoria Geral De Justica",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 30523,
+      "pendentes": 12051,
+      "delta": 493,
+      "fit": 55
+    },
+    {
+      "nome": "Confederacao Nacional Dos Trabalhadores Rurais Agricultores E Agricultoras Familiares",
+      "seg": "Serviços Profissionais",
+      "sub": "Empresas De Serviços",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 17701,
+      "pendentes": 12010,
+      "delta": 7350,
+      "fit": 55
+    },
+    {
+      "nome": "Confederacao Brasileira Dos Trabalhadores Da Pesca E Aquicultura",
+      "seg": "Serviços Profissionais",
+      "sub": "Empresas De Serviços",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 15490,
+      "pendentes": 11941,
+      "delta": 6147,
+      "fit": 55
+    },
+    {
+      "nome": "Aapb Associacao Dos Aposentados E Pensionistasdo Brasil",
+      "seg": "Serviços Profissionais",
+      "sub": "Empresas De Serviços",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 18590,
+      "pendentes": 11935,
+      "delta": 6980,
+      "fit": 55
+    },
+    {
+      "nome": "Municipio De Piracicaba",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 10354,
+      "pendentes": 11877,
+      "delta": 1278,
+      "fit": 55
+    },
+    {
+      "nome": "Agencia Nacional De Transportes Terrestres - Antt",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Federal",
+      "novos": 6032,
+      "pendentes": 11711,
+      "delta": -1571,
+      "fit": 55
+    },
+    {
+      "nome": "Municipio De Cascavel",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 10408,
+      "pendentes": 11702,
+      "delta": 2756,
+      "fit": 55
+    },
+    {
+      "nome": "Banco Original S/A",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 12729,
+      "pendentes": 11665,
+      "delta": -1085,
+      "fit": 55
+    },
+    {
+      "nome": "Luizacred S.A. Sociedade De Credito, Financiamento E Investimento",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 13267,
+      "pendentes": 11660,
+      "delta": 734,
+      "fit": 55
+    },
+    {
+      "nome": "Equatorial Goias Distribuidora De Energia S/A",
+      "seg": "Energia E Infraestrutura",
+      "sub": "Concessionárias De Serviços Públicos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 14544,
+      "pendentes": 11623,
+      "delta": -3336,
+      "fit": 55
+    },
+    {
+      "nome": "Municipio De Matinhos",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 651,
+      "pendentes": 11490,
+      "delta": -1406,
+      "fit": 55
+    },
+    {
+      "nome": "Paranaprevidencia",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 6347,
+      "pendentes": 11463,
+      "delta": -8986,
+      "fit": 55
+    },
+    {
+      "nome": "Fundacao Hospitalar Do Estado De Minas Gerais",
+      "seg": "Saúde E Ciências Da Vida",
+      "sub": "Operadoras De Plano De Saúde",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 5233,
+      "pendentes": 11448,
+      "delta": 862,
+      "fit": 55
+    },
+    {
+      "nome": "Fca Fiat Chrysler Automoveis Brasil Ltda.",
+      "seg": "Indústria E Manufatura",
+      "sub": "Empresas De Transformação",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 9160,
+      "pendentes": 11387,
+      "delta": -369,
+      "fit": 55
+    },
+    {
+      "nome": "Itapeva Xi Multicarteira Fundo De Investimento Em Direitos Creditorios Nao Padronizados",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 15259,
+      "pendentes": 11211,
+      "delta": -2615,
+      "fit": 55
+    },
+    {
+      "nome": "Defensoria Publica Da Uniao",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Federal",
+      "novos": 2291,
+      "pendentes": 11110,
+      "delta": -5445,
+      "fit": 55
+    },
+    {
+      "nome": "Agencia Nacional De Saude Suplementar",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Federal",
+      "novos": 4064,
+      "pendentes": 11039,
+      "delta": -1735,
+      "fit": 55
+    },
+    {
+      "nome": "Secretaria De Estado Da Cultura",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 5600,
+      "pendentes": 10960,
+      "delta": -7996,
+      "fit": 55
+    },
+    {
+      "nome": "Caixa De Assistencia Dos Funcionarios Do Banco Do Brasil",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 8926,
+      "pendentes": 10867,
+      "delta": 1515,
+      "fit": 55
+    },
+    {
+      "nome": "Capital Consig Sociedade De Credito Direto S.A",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 12563,
+      "pendentes": 10834,
+      "delta": 8665,
+      "fit": 55
+    },
+    {
+      "nome": "Banco Digio S.A.",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 12622,
+      "pendentes": 10735,
+      "delta": 7931,
+      "fit": 55
+    },
+    {
+      "nome": "Municipio De Florianopolis",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 13670,
+      "pendentes": 10680,
+      "delta": -108,
+      "fit": 55
+    },
+    {
+      "nome": "Banco Inbursa S.A.",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 11400,
+      "pendentes": 10671,
+      "delta": 8037,
+      "fit": 55
+    },
+    {
+      "nome": "Hoepers Recuperadora De Credito S/A",
+      "seg": "Serviços Profissionais",
+      "sub": "Empresas De Serviços",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 10305,
+      "pendentes": 10624,
+      "delta": -9341,
+      "fit": 55
+    },
+    {
+      "nome": "Banco Santander Brasil S/A",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 5413,
+      "pendentes": 10615,
+      "delta": -779,
+      "fit": 55
+    },
+    {
+      "nome": "99 Tecnologia Ltda",
+      "seg": "Serviços Profissionais",
+      "sub": "Empresas De Serviços",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 17566,
+      "pendentes": 10604,
+      "delta": 1467,
+      "fit": 55
+    },
+    {
+      "nome": "Tokio Marine Seguradora S.A.",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 8875,
+      "pendentes": 10593,
+      "delta": -58,
+      "fit": 55
+    },
+    {
+      "nome": "Serede - Servicos De Rede S.A.",
+      "seg": "Imobiliário E Construção Civil",
+      "sub": "Construtoras",
+      "ramo": "Justiça do Trabalho",
+      "novos": 8886,
+      "pendentes": 10557,
+      "delta": -4527,
+      "fit": 55
+    },
+    {
+      "nome": "Municipio De Imperatriz",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 6367,
+      "pendentes": 10526,
+      "delta": -7162,
+      "fit": 55
+    },
+    {
+      "nome": "Ifood.Com Agencia De Restaurantes Online S.A.",
+      "seg": "Serviços Profissionais",
+      "sub": "Empresas De Serviços",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 14264,
+      "pendentes": 10518,
+      "delta": -84,
+      "fit": 55
+    },
+    {
+      "nome": "Confederacao Brasileira De Aposentados, Pensionistas E Idosos",
+      "seg": "Serviços Profissionais",
+      "sub": "Empresas De Serviços",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 14648,
+      "pendentes": 10476,
+      "delta": 5064,
+      "fit": 55
+    },
+    {
+      "nome": "Municipio De Fortaleza - Procuradoria Geral Do Municipio - Pgm",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 6251,
+      "pendentes": 10463,
+      "delta": -543,
+      "fit": 55
+    },
+    {
+      "nome": "Ministerio Publico Do Estado Da Bahia",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 14418,
+      "pendentes": 10377,
+      "delta": -1962,
+      "fit": 55
+    },
+    {
+      "nome": "Departamento De Transito Do Estado Do Rio De Janeiro",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 5752,
+      "pendentes": 10335,
+      "delta": 324,
+      "fit": 55
+    },
+    {
+      "nome": "Americanas S.A - Em Recuperacao Judicial",
+      "seg": "Varejo E E-Commerce",
+      "sub": "Plataformas De Comércio Eletrônico",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 9117,
+      "pendentes": 10269,
+      "delta": -2652,
+      "fit": 55
+    },
+    {
+      "nome": "Ambev S.A.",
+      "seg": "Indústria E Manufatura",
+      "sub": "Empresas De Transformação",
+      "ramo": "Justiça do Trabalho",
+      "novos": 11398,
+      "pendentes": 10252,
+      "delta": -542,
+      "fit": 55
+    },
+    {
+      "nome": "Municipio De Fortaleza",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 10441,
+      "pendentes": 10232,
+      "delta": 1461,
+      "fit": 55
+    },
+    {
+      "nome": "Municipio Do Recife",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 6130,
+      "pendentes": 10208,
+      "delta": 2190,
+      "fit": 55
+    },
+    {
+      "nome": "Instituto Nacional De Colonizacao E Reforma Agraria",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Federal",
+      "novos": 2122,
+      "pendentes": 10173,
+      "delta": -3237,
+      "fit": 55
+    },
+    {
+      "nome": "Kirton Bank S.A. - Banco Multiplo",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 2510,
+      "pendentes": 10149,
+      "delta": -8556,
+      "fit": 55
+    },
+    {
+      "nome": "Transportes Aereos Portugueses Sa",
+      "seg": "Energia E Infraestrutura",
+      "sub": "Logística E Transportes",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 15315,
+      "pendentes": 9884,
+      "delta": -1043,
+      "fit": 55
+    },
+    {
+      "nome": "Sabemi Seguradora Sa",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 7313,
+      "pendentes": 9868,
+      "delta": -1181,
+      "fit": 55
+    },
+    {
+      "nome": "Municipio Do Rio Grande",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 6895,
+      "pendentes": 9860,
+      "delta": -656,
+      "fit": 55
+    },
+    {
+      "nome": "Centro Brasileiro De Pesquisa Em  Avaliacao E Selecao E De Promocao De Eventos - Cebraspe",
+      "seg": "Educação",
+      "sub": "Ensino Superior",
+      "ramo": "Justiça Federal",
+      "novos": 7226,
+      "pendentes": 9854,
+      "delta": 1859,
+      "fit": 55
+    },
+    {
+      "nome": "Sebraseg Clube De Beneficios Ltda",
+      "seg": "Serviços Profissionais",
+      "sub": "Empresas De Serviços",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 10728,
+      "pendentes": 9805,
+      "delta": 1001,
+      "fit": 55
+    },
+    {
+      "nome": "Hdi Seguros S.A.",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 6575,
+      "pendentes": 9729,
+      "delta": -148,
+      "fit": 55
+    },
+    {
+      "nome": "Zurich Minas Brasil Seguros S.A.",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 8109,
+      "pendentes": 9698,
+      "delta": -1765,
+      "fit": 55
+    },
+    {
+      "nome": "Contax S.A. - Em Recuperacao Judicial Em Recuperacao Judicial",
+      "seg": "Serviços Profissionais",
+      "sub": "Empresas De Serviços",
+      "ramo": "Justiça do Trabalho",
+      "novos": 10307,
+      "pendentes": 9692,
+      "delta": -4400,
+      "fit": 55
+    },
+    {
+      "nome": "Estado De Roraima",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 11580,
+      "pendentes": 9643,
+      "delta": -2870,
+      "fit": 55
+    },
+    {
+      "nome": "Municipio De Sao Leopoldo",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 6793,
+      "pendentes": 9566,
+      "delta": 2257,
+      "fit": 55
+    },
+    {
+      "nome": "Municipio De Gravatai",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 4466,
+      "pendentes": 9554,
+      "delta": -807,
+      "fit": 55
+    },
+    {
+      "nome": "Municipio De Sao Luis",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 7286,
+      "pendentes": 9516,
+      "delta": -593,
+      "fit": 55
+    },
+    {
+      "nome": "Sociedade De Ensino Superior Estacio De Sa Ltda",
+      "seg": "Educação",
+      "sub": "Ensino Superior",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 10698,
+      "pendentes": 9501,
+      "delta": 424,
+      "fit": 55
+    },
+    {
+      "nome": "Liberty Seguros S/A",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 6981,
+      "pendentes": 9489,
+      "delta": -1714,
+      "fit": 55
+    },
+    {
+      "nome": "Celesc Distribuicao S.A",
+      "seg": "Energia E Infraestrutura",
+      "sub": "Concessionárias De Serviços Públicos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 11501,
+      "pendentes": 9466,
+      "delta": -4898,
+      "fit": 55
+    },
+    {
+      "nome": "General Motors Do Brasil Ltda",
+      "seg": "Indústria E Manufatura",
+      "sub": "Empresas De Transformação",
+      "ramo": "Justiça do Trabalho",
+      "novos": 6622,
+      "pendentes": 9440,
+      "delta": -1175,
+      "fit": 55
+    },
+    {
+      "nome": "Ministerio Publico Do Estado Do Ceara",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 15276,
+      "pendentes": 9390,
+      "delta": -507,
+      "fit": 55
+    },
+    {
+      "nome": "Vivo S.A.",
+      "seg": "Tecnologia E Inovação",
+      "sub": "Telecomunicações",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 10694,
+      "pendentes": 9368,
+      "delta": -3128,
+      "fit": 55
+    },
+    {
+      "nome": "Caixa De Previdencia Dos Funcs Do Banco Do Brasil",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 3482,
+      "pendentes": 9195,
+      "delta": -1162,
+      "fit": 55
+    },
+    {
+      "nome": "Itau Seguros S/A",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 6563,
+      "pendentes": 9190,
+      "delta": -479,
+      "fit": 55
+    },
+    {
+      "nome": "Apple Computer Brasil Ltda",
+      "seg": "Varejo E E-Commerce",
+      "sub": "Plataformas De Comércio Eletrônico",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 21347,
+      "pendentes": 9145,
+      "delta": -2418,
+      "fit": 55
+    },
+    {
+      "nome": "Banco Digimais S.A.",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 7265,
+      "pendentes": 9139,
+      "delta": 100,
+      "fit": 55
+    },
+    {
+      "nome": "Municipio De Sao Bernardo Do Campo",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 4351,
+      "pendentes": 9102,
+      "delta": 159,
+      "fit": 55
+    },
+    {
+      "nome": "Municipio De Duque De Caxias",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 5745,
+      "pendentes": 9082,
+      "delta": -997,
+      "fit": 55
+    }
+  ],
+  "segmentosBR": [
+    {
+      "n": "Setor Público E Terceiro Setor",
+      "v": 8458217
+    },
+    {
+      "n": "Financeiro E Investimentos",
+      "v": 6231515
+    },
+    {
+      "n": "Energia E Infraestrutura",
+      "v": 1067894
+    },
+    {
+      "n": "Serviços Profissionais",
+      "v": 914879
+    },
+    {
+      "n": "Tecnologia E Inovação",
+      "v": 347996
+    },
+    {
+      "n": "Varejo E E-Commerce",
+      "v": 203684
+    },
+    {
+      "n": "Indústria E Manufatura",
+      "v": 134551
+    },
+    {
+      "n": "Saúde E Ciências Da Vida",
+      "v": 71538
+    },
+    {
+      "n": "Imobiliário E Construção Civil",
+      "v": 30950
+    },
+    {
+      "n": "Educação",
+      "v": 30346
+    }
+  ],
+  "ramos": [
+    {
+      "n": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "v": 11223402
+    },
+    {
+      "n": "Justiça Federal",
+      "v": 5966330
+    },
+    {
+      "n": "Justiça do Trabalho",
+      "v": 260456
+    },
+    {
+      "n": "Superior Tribunal de Justiça",
+      "v": 41382
+    }
+  ]
 }

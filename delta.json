@@ -1,6 +1,208 @@
 {
-  "gerado_em": "2026-05-20T18:49:11.023070Z",
-  "novos_entrantes": [],
+  "gerado_em": "2026-05-20T19:31:17.618710+00:00",
+  "novos_entrantes": [
+    {
+      "nome": "Instituto Nacional Do Seguro Social",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Federal",
+      "novos": 4576041,
+      "pendentes": 4286811,
+      "delta": -368168,
+      "fit": 55
+    },
+    {
+      "nome": "Sinthoresp - Sindicato Dos Trabalhadores Em Hoteis Apart Hoteis Moteis Flat'S Pensoes Hospedarias Pousadas Restaurantes Churrascarias Cantinas Pizzarias Bares Lanchonetes Sorveterias Confeitarias Docerias Buffets Fast-Foods E Assemelhados De Sao Paulo E Regiao",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 1232193,
+      "pendentes": 2249341,
+      "delta": -637111,
+      "fit": 55
+    },
+    {
+      "nome": "Caixa Economica Federal",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Federal",
+      "novos": 417369,
+      "pendentes": 843949,
+      "delta": -1997326,
+      "fit": 55
+    },
+    {
+      "nome": "Banco Bradesco S.A.",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 768396,
+      "pendentes": 711026,
+      "delta": -82497,
+      "fit": 55
+    },
+    {
+      "nome": "Ministerio Da Fazenda",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Federal",
+      "novos": 309755,
+      "pendentes": 619394,
+      "delta": -199140,
+      "fit": 55
+    },
+    {
+      "nome": "Banco Do Brasil Sa",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 472047,
+      "pendentes": 531220,
+      "delta": -119871,
+      "fit": 55
+    },
+    {
+      "nome": "Estado De Sao Paulo",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 357696,
+      "pendentes": 469421,
+      "delta": -70236,
+      "fit": 55
+    },
+    {
+      "nome": "Banco Pan S.A.",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 339107,
+      "pendentes": 376298,
+      "delta": 17621,
+      "fit": 55
+    },
+    {
+      "nome": "Banco Bmg S.A",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 299802,
+      "pendentes": 335431,
+      "delta": 13395,
+      "fit": 55
+    },
+    {
+      "nome": "Advocacia Geral Da Uniao",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Federal",
+      "novos": 282995,
+      "pendentes": 327676,
+      "delta": -53309,
+      "fit": 55
+    }
+  ],
   "saidas": [],
-  "maiores_variacoes": []
+  "maiores_variacoes": [
+    {
+      "nome": "Caixa Economica Federal",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Federal",
+      "novos": 417369,
+      "pendentes": 843949,
+      "delta": -1997326,
+      "fit": 55
+    },
+    {
+      "nome": "Sinthoresp - Sindicato Dos Trabalhadores Em Hoteis Apart Hoteis Moteis Flat'S Pensoes Hospedarias Pousadas Restaurantes Churrascarias Cantinas Pizzarias Bares Lanchonetes Sorveterias Confeitarias Docerias Buffets Fast-Foods E Assemelhados De Sao Paulo E Regiao",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 1232193,
+      "pendentes": 2249341,
+      "delta": -637111,
+      "fit": 55
+    },
+    {
+      "nome": "Instituto Nacional Do Seguro Social",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Federal",
+      "novos": 4576041,
+      "pendentes": 4286811,
+      "delta": -368168,
+      "fit": 55
+    },
+    {
+      "nome": "Ministerio Da Fazenda",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Federal",
+      "novos": 309755,
+      "pendentes": 619394,
+      "delta": -199140,
+      "fit": 55
+    },
+    {
+      "nome": "Estado Do Rio Grande Do Sul",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 176559,
+      "pendentes": 281509,
+      "delta": -126927,
+      "fit": 55
+    },
+    {
+      "nome": "Banco Do Brasil Sa",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 472047,
+      "pendentes": 531220,
+      "delta": -119871,
+      "fit": 55
+    },
+    {
+      "nome": "Oi S.A. - Em Recuperacao Judicial",
+      "seg": "Tecnologia E Inovação",
+      "sub": "Telecomunicações",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 60396,
+      "pendentes": 98285,
+      "delta": -82741,
+      "fit": 55
+    },
+    {
+      "nome": "Banco Bradesco S.A.",
+      "seg": "Financeiro E Investimentos",
+      "sub": "Bancos",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 768396,
+      "pendentes": 711026,
+      "delta": -82497,
+      "fit": 55
+    },
+    {
+      "nome": "Estado Do Parana",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 77704,
+      "pendentes": 109265,
+      "delta": -76427,
+      "fit": 55
+    },
+    {
+      "nome": "Estado De Sao Paulo",
+      "seg": "Setor Público E Terceiro Setor",
+      "sub": "Administração Pública",
+      "ramo": "Justiça Dos Estados E Do Distrito Federal E Territórios",
+      "novos": 357696,
+      "pendentes": 469421,
+      "delta": -70236,
+      "fit": 55
+    }
+  ]
 }

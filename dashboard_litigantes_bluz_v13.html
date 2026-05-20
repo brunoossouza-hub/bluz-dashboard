@@ -39,9 +39,8 @@ header{
 }
 .hlogo-row{display:flex;align-items:center;gap:14px;}
 .hlogo{
-  height:38px;min-width:84px;border-radius:8px;
-  background:var(--text);color:#fff;display:flex;align-items:center;justify-content:center;
-  font-weight:700;letter-spacing:.02em;font-size:18px;
+  height:38px;width:auto;min-width:124px;border-radius:0;
+  background:transparent;display:block;object-fit:contain;
 }
 .hdiv{width:1px;height:44px;background:var(--border2);}
 .ltag{
@@ -219,6 +218,29 @@ input[type=range]::-webkit-slider-thumb{
   cursor:pointer;box-shadow:0 1px 4px rgba(249,115,22,0.4);
 }
 
+.score-explain{
+  font-size:11px;color:var(--text2);line-height:1.6;margin-bottom:14px;
+  padding:12px 14px;background:var(--surface2);border:1px solid var(--border);
+  border-radius:8px;
+}
+.score-explain ul{margin:8px 0 0 18px;line-height:1.65;}
+.volume-band{
+  display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:10px 0 14px;
+}
+@media(max-width:760px){.volume-band{grid-template-columns:repeat(2,1fr);}}
+.vb{
+  background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:9px 10px;
+}
+.vb-l{
+  font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--gray2);margin-bottom:4px;
+}
+.vb-v{font-family:'JetBrains Mono',monospace;font-size:13px;font-weight:700;color:var(--orange);}
+.materia-note{
+  font-size:10px;color:var(--gray1);font-family:'JetBrains Mono',monospace;
+  background:var(--surface2);border:1px dashed var(--border2);border-radius:6px;padding:7px 10px;
+}
+
 .tc{
   background:var(--surface);border:1px solid var(--border);border-radius:10px;
   overflow:hidden;margin-bottom:12px;box-shadow:0 1px 4px rgba(0,0,0,0.04);
@@ -304,7 +326,7 @@ footer{
 
 <header>
   <div class="hlogo-row">
-    <div class="hlogo">b/luz</div>
+    <img class="hlogo" alt="b/luz" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyBpZD0iQ2FtYWRhXzEiIGRhdGEtbmFtZT0iQ2FtYWRhIDEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld0JveD0iMCAwIDE4My45NiA1Ny44MyI+CiAgPGRlZnM+CiAgICA8c3R5bGU+CiAgICAgIC5jbHMtMSB7CiAgICAgICAgZmlsbDogIzIxMjAyMzsKICAgICAgfQoKICAgICAgLmNscy0yIHsKICAgICAgICBmaWxsOiAjZTk2NDFiOwogICAgICB9CiAgICA8L3N0eWxlPgogIDwvZGVmcz4KICA8cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik03LjI3LDMuOTFjLjYzLS4xMSwxLjIyLjMxLDEuMzMuOTQuMDIuMTMuMDIuMjYsMCwuMzh2MTAuNzdoMjIuNTRjMTAuODYsMCwxNC4zMSwzLjQ4LDE0LjMxLDEyLjE5djguNjZjMCw4LjcyLTMuNDUsMTIuMTUtMTQuMzEsMTIuMTVIMTQuMzFjLTEwLjgyLDAtMTQuMzEtMy40My0xNC4zMS0xMi4xNVY1LjIzYzAtLjkuNDgtMS4zMiwxLjM4LTEuMzJoNS44OVpNOC42LDIzLjIxdjEyYzAsNSwxLjM4LDYuNjEsNi41NSw2LjYxaDE1LjE1YzUuMjMsMCw2LjYxLTEuNTYsNi42MS02LjYxdi01LjM5YzAtNS4wNS0xLjM4LTYuNjEtNi42MS02LjYxSDguNloiLz4KICA8cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Ik03Mi41LDBjLjY2LDAsMSwuNDIuNzIsMS4wOGwtMTgsNTUuNzljLS4yNC42Ni0uMzYsMS0xLjE0LDFoLTQuMjRjLS42NiwwLTEtLjM2LS43Mi0xLjA4TDY3LjE1LDFjLjI0LS43Mi4zNi0xLDEuMTQtMWg0LjIxWiIvPgogIDxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTg0LjcxLDMuOTFjLjYzLS4wOSwxLjIxLjM2LDEuMjkuOTkuMDIuMTEuMDEuMjIsMCwuMzN2NDIuNDRjLjEuNjMtLjMzLDEuMjMtLjk3LDEuMzMtLjExLjAyLS4yMi4wMi0uMzIsMGgtNS45Yy0uNjMuMS0xLjIyLS4zNC0xLjMyLS45Ny0uMDItLjEyLS4wMi0uMjQsMC0uMzZWNS4yM2MtLjEtLjYzLjMyLTEuMjIuOTUtMS4zMi4xMi0uMDIuMjUtLjAyLjM3LDBoNS45WiIvPgogIDxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTEwMC43NiwxNmMuOSwwLDEuMzIuNDgsMS4zMiwxLjM4djE3LjM3YzAsNSwxLDYuNjEsNi4xOSw2LjYxaDE1LjQ1YzUuMjMsMCw2LjYxLTEuNTYsNi42MS02LjYxdi0xNy4zOGMwLS45LjQyLTEuMzgsMS4zMy0xLjM4aDUuODljLjksMCwxLjMyLjQ4LDEuMzIsMS4zOHYxOS40OGMwLDguNzItMy40OSwxMi4xNS0xNC4zMSwxMi4xNWgtMTYuNzdjLTEwLjc5LDAtMTQuMzEtMy40My0xNC4zMS0xMi4xNXYtMTkuNDhjLS4wOC0uNjguNDEtMS4yOSwxLjA5LTEuMzcuMS0uMDEuMTktLjAxLjI5LDBoNS45WiIvPgogIDxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTE3OS44MSwxNmMyLjg5LDAsNC4xNSwxLjIsNC4xNSwzLjc5djQuNDVjMCwyLjUyLS41NCwzLjMtMi43MSw0LjI3bC0yNi42OSwxMS43MWMtLjQyLjE4LS40OC40Mi0uNDguODR2LjQyYzAsLjMuMTguNDIuNTQuNDJoMjhjLjU1LS4wMiwxLjAyLjQsMS4wNC45NSwwLC4wNSwwLC4xLDAsLjE1djQuOTNjLjA0LjU1LS4zNywxLjAzLS45MiwxLjA3LS4wNSwwLS4xLDAtLjE2LDBoLTMzLjI1Yy0yLjg4LDAtNC4xNS0xLjIxLTQuMTUtMy43M3YtNC40NWMwLTIuNTMuNTQtMy4zNywyLjcxLTQuMzNsMjYuNjktMTEuNzJjLjM2LS4xMi40OC0uMzYuNDgtLjc4di0uNDJjMC0uMy0uMTgtLjQ5LS41NC0uNDloLTI4Yy0uNTUuMDItMS4wMi0uNC0xLjA0LS45NiwwLS4wNCwwLS4wOCwwLS4xMnYtNC45M2MtLjA0LS41NS4zNy0xLjAzLjkyLTEuMDcuMDYsMCwuMTEsMCwuMTcsMGgzMy4yNFoiLz4KPC9zdmc+">
     <div class="hdiv"></div>
     <div>
       <div class="ltag">Ferramenta de Prospecção · Polo Passivo · CNJ DataJud</div>
@@ -362,6 +384,13 @@ footer{
     <option value="novos">Casos Novos (últimos 12 meses)</option>
     <option value="pendentes">Casos Pendentes</option>
   </select>
+  <select class="fsel" id="f-materia" onchange="applyFilters()" title="Filtra por matéria quando litigantes.json trouxer materia/materias. Sem esse campo, usa inferência conservadora por ramo/competência.">
+    <option value="">Todas as matérias</option>
+    <option value="Trabalhista">Trabalhista</option>
+    <option value="Cível">Cível</option>
+    <option value="Tributário">Tributário</option>
+  </select>
+  <span class="materia-note" id="materia-note">Matéria: usa coluna materia/materias se disponível; caso contrário, inferência por ramo.</span>
   <button class="fbtn" onclick="resetFilters()">↺ Limpar</button>
 </div>
 
@@ -416,7 +445,7 @@ footer{
 <div id="tab-ranking" class="panel">
   <div class="note" style="font-size:11px;">
     <span style="font-size:14px;">⚠️</span>
-    <div><strong>Recorte ativo:</strong> empresas privadas com fit b/luz, polo passivo, CNJ DataJud · Maio/2022.</div>
+    <div><strong>Recorte ativo:</strong> empresas privadas com fit b/luz, polo passivo, CNJ DataJud · Maio/2022. O filtro de matéria é preciso quando o arquivo <code>litigantes.json</code> trouxer <code>materia</code> ou <code>materias</code>; sem isso, o dashboard usa inferência conservadora por ramo.</div>
   </div>
 
   <div class="fb">
@@ -464,7 +493,7 @@ footer{
 <div id="tab-prospects" class="panel">
   <div class="note" style="font-size:11px;">
     <span style="font-size:14px;">⚠️</span>
-    <div><strong>Recorte ativo:</strong> empresas privadas com fit b/luz, polo passivo, CNJ DataJud · Maio/2022.</div>
+    <div><strong>Recorte ativo:</strong> empresas privadas com fit b/luz, polo passivo, CNJ DataJud · Maio/2022. O filtro de matéria é preciso quando o arquivo <code>litigantes.json</code> trouxer <code>materia</code> ou <code>materias</code>; sem isso, cível e tributário não devem ser lidos como separados com precisão.</div>
   </div>
 
   <div class="kg k4" style="margin-bottom:18px;">
@@ -476,8 +505,20 @@ footer{
 
   <div class="score-box">
     <div class="ct" style="margin-bottom:6px;">Score de Priorização</div>
-    <div style="font-size:11px;color:var(--text2);line-height:1.55;margin-bottom:14px;padding:10px 12px;background:var(--surface2);border-radius:6px;">
-      <strong>Como funciona:</strong> cada prospect recebe nota de 0 a 100 em três fatores. Os pesos abaixo são normalizados automaticamente.
+    <div class="score-explain">
+      <strong>Como os pesos funcionam:</strong> cada prospect recebe uma nota de 0 a 100 em três dimensões. Os controles abaixo definem a importância relativa de cada dimensão e são normalizados automaticamente para somar 100%.
+      <ul>
+        <li><strong>Fit b/luz:</strong> aderência estratégica da empresa ao perfil de cliente desejado, considerando sofisticação jurídica, potencial de relacionamento e sinergia com práticas do escritório.</li>
+        <li><strong>Volume processual:</strong> intensidade de litigância no recorte selecionado. Usa <span id="volume-metrica-label">casos novos</span> e uma escala logarítmica, para diferenciar empresas de 1 mil, 10 mil, 100 mil e 1 milhão de processos sem deixar outliers dominarem todo o ranking.</li>
+        <li><strong>Pressão regulatória:</strong> grau de exposição do segmento a reguladores como Bacen, CVM, ANS, ANATEL, ANEEL, ANAC e ANPD.</li>
+      </ul>
+    </div>
+
+    <div class="volume-band" aria-label="Indicadores de volume processual considerados no score">
+      <div class="vb"><div class="vb-l">Menor volume</div><div class="vb-v" id="vol-min">-</div></div>
+      <div class="vb"><div class="vb-l">Mediana</div><div class="vb-v" id="vol-med">-</div></div>
+      <div class="vb"><div class="vb-l">P75</div><div class="vb-v" id="vol-p75">-</div></div>
+      <div class="vb"><div class="vb-l">Maior volume</div><div class="vb-v" id="vol-max">-</div></div>
     </div>
 
     <div class="score-row" style="align-items:flex-start;">
@@ -486,7 +527,8 @@ footer{
           <span class="score-lab" style="min-width:0;">I · Fit b/luz</span>
           <span class="score-val" id="s-fit-v">35%</span>
         </div>
-        <input type="range" min="0" max="100" value="35" id="s-fit" oninput="updScore()" style="width:100%;">
+        <div style="font-size:10px;color:var(--gray2);line-height:1.4;margin-bottom:6px;font-family:'IBM Plex Sans',sans-serif;">Peso aplicado à aderência estratégica ao perfil de cliente b/luz.</div>
+        <input type="range" min="0" max="100" value="35" id="s-fit" oninput="previewWeights()" style="width:100%;">
       </div>
     </div>
 
@@ -496,7 +538,8 @@ footer{
           <span class="score-lab" style="min-width:0;">II · Volume processual</span>
           <span class="score-val" id="s-vol-v">40%</span>
         </div>
-        <input type="range" min="0" max="100" value="40" id="s-vol" oninput="updScore()" style="width:100%;">
+        <div style="font-size:10px;color:var(--gray2);line-height:1.4;margin-bottom:6px;font-family:'IBM Plex Sans',sans-serif;">Nº de processos considerados conforme o seletor global: casos novos ou pendentes. A nota usa escala logarítmica: 1k≈25, 10k≈50, 100k≈75, 1M≈100.</div>
+        <input type="range" min="0" max="100" value="40" id="s-vol" oninput="previewWeights()" style="width:100%;">
       </div>
     </div>
 
@@ -506,13 +549,15 @@ footer{
           <span class="score-lab" style="min-width:0;">III · Pressão regulatória</span>
           <span class="score-val" id="s-reg-v">25%</span>
         </div>
-        <input type="range" min="0" max="100" value="25" id="s-reg" oninput="updScore()" style="width:100%;">
+        <div style="font-size:10px;color:var(--gray2);line-height:1.4;margin-bottom:6px;font-family:'IBM Plex Sans',sans-serif;">Prioriza setores com escrutínio regulatório ativo e litigância recorrente, favorecendo oportunidades multidisciplinares.</div>
+        <input type="range" min="0" max="100" value="25" id="s-reg" oninput="previewWeights()" style="width:100%;">
       </div>
     </div>
 
-    <div style="font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--gray2);padding-top:10px;border-top:1px solid var(--border);margin-top:14px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;">
+    <div style="font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--gray2);padding-top:10px;border-top:1px solid var(--border);margin-top:14px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;align-items:center;">
       <span>Pesos normalizados para 100%</span>
       <span>Score = Fit × <span id="w-fit">35%</span> + Volume × <span id="w-vol">40%</span> + Pressão × <span id="w-reg">25%</span></span>
+      <button class="fbtn on" type="button" onclick="aplicarPesos()">Atualizar lista abaixo</button>
     </div>
   </div>
 
@@ -825,15 +870,98 @@ function getMetricKey(){
   return tipoEl && tipoEl.value === "pendentes" ? "pendentes" : "novos";
 }
 
+function getMetricLabel(){
+  return getMetricKey() === "pendentes" ? "casos pendentes" : "casos novos";
+}
+
+function getMetricLabelShort(){
+  return getMetricKey() === "pendentes" ? "pendentes" : "novos";
+}
+
+function volumeMetricValue(p){
+  const key = getMetricKey();
+  return Number(p?.[key] || 0);
+}
+
+function normalizeText(value){
+  return String(value || "")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .trim()
+    .toLowerCase();
+}
+
+function normalizeMateria(value){
+  const v = normalizeText(value);
+  if(!v) return "";
+  if(v.includes("trabalh")) return "Trabalhista";
+  if(v.includes("tribut")) return "Tributário";
+  if(v.includes("civel") || v.includes("civil")) return "Cível";
+  return "";
+}
+
+function getMateriasForLitigante(l){
+  const explicit = [];
+
+  if(Array.isArray(l.materias)){
+    l.materias.forEach(m => {
+      const n = normalizeMateria(m);
+      if(n && !explicit.includes(n)) explicit.push(n);
+    });
+  }
+
+  ["materia","matéria","tipo_caso","tipoCaso","competencia","competência"].forEach(k => {
+    if(l[k]){
+      String(l[k]).split(/[;,|]/).forEach(m => {
+        const n = normalizeMateria(m);
+        if(n && !explicit.includes(n)) explicit.push(n);
+      });
+    }
+  });
+
+  if(explicit.length) return explicit;
+
+  const ramoNorm = normalizeText(l.ramo);
+  if(ramoNorm.includes("trabalho")) return ["Trabalhista"];
+
+  /* Fallback metodológico: Justiça Estadual, Federal e STJ podem conter tanto cível quanto tributário.
+     Sem coluna de matéria no JSON, não é seguro separar esses dois tipos com precisão. */
+  if(ramoNorm.includes("estadual") || ramoNorm.includes("federal") || ramoNorm.includes("superior tribunal")){
+    return ["Cível","Tributário"];
+  }
+
+  return [];
+}
+
+function matchesMateria(l, materia){
+  if(!materia) return true;
+  return getMateriasForLitigante(l).includes(materia);
+}
+
+function updateMateriaNote(){
+  const note = document.getElementById("materia-note");
+  if(!note) return;
+
+  const hasExplicit = ALL_LITIGANTES.some(l =>
+    Array.isArray(l.materias) || l.materia || l["matéria"] || l.tipo_caso || l.tipoCaso || l.competencia || l["competência"]
+  );
+
+  note.textContent = hasExplicit
+    ? "Matéria: filtro preciso por campo materia/materias do JSON."
+    : "Matéria: filtro estimado por ramo; cível e tributário exigem materia/materias no JSON para separação precisa.";
+}
+
 function currentFilteredPool(){
   const ramo = document.getElementById("f-ramo")?.value || "";
   const seg = document.getElementById("f-seg")?.value || "";
   const sub = document.getElementById("f-sub")?.value || "";
+  const materia = document.getElementById("f-materia")?.value || "";
 
   return ALL_LITIGANTES.filter(l => {
     if(ramo && l.ramo !== ramo) return false;
     if(seg && l.seg !== seg) return false;
     if(sub && l.sub !== sub) return false;
+    if(!matchesMateria(l, materia)) return false;
     return true;
   });
 }
@@ -905,6 +1033,7 @@ function goTab(t, btn){
 
 /* ========== FILTROS ========== */
 function applyFilters(){
+  updateMateriaNote();
   PROSPECTS = getProspects();
   renderUniverso();
   renderRanking();
@@ -915,7 +1044,7 @@ function applyFilters(){
 }
 
 function resetFilters(){
-  ["f-ramo","f-seg","f-sub","f-tipo"].forEach(id => {
+  ["f-ramo","f-seg","f-sub","f-tipo","f-materia"].forEach(id => {
     const el = document.getElementById(id);
     if(el) el.selectedIndex = 0;
   });
@@ -980,9 +1109,9 @@ function getWeights(){
   };
 }
 
-function volumeScore(novos){
-  if(!novos || novos <= 0) return 0;
-  const s = 25 * Math.log10(novos);
+function volumeScore(valorProcessos){
+  if(!valorProcessos || valorProcessos <= 0) return 0;
+  const s = 25 * Math.log10(valorProcessos);
   return Math.max(0, Math.min(100, s));
 }
 
@@ -993,12 +1122,37 @@ function pressaoScore(seg){
 function calcScore(p){
   const w = getWeights();
   const fitN = p.fit || 0;
-  const volN = volumeScore(p.novos);
+  const volN = volumeScore(volumeMetricValue(p));
   const regN = pressaoScore(p.seg);
   return Math.round(fitN * w.fit + volN * w.vol + regN * w.reg);
 }
 
-function updScore(){
+function percentile(sorted, q){
+  if(!sorted.length) return 0;
+  const pos = (sorted.length - 1) * q;
+  const base = Math.floor(pos);
+  const rest = pos - base;
+  if(sorted[base + 1] !== undefined) return sorted[base] + rest * (sorted[base + 1] - sorted[base]);
+  return sorted[base];
+}
+
+function updateVolumeIndicators(){
+  const pool = currentFilteredPool();
+  const values = pool.map(volumeMetricValue).filter(v => v > 0).sort((a,b) => a - b);
+
+  const setText = (id, value) => {
+    const el = document.getElementById(id);
+    if(el) el.textContent = value;
+  };
+
+  setText("volume-metrica-label", getMetricLabel());
+  setText("vol-min", values.length ? fmtInt(values[0]) : "-");
+  setText("vol-med", values.length ? fmtInt(Math.round(percentile(values, 0.50))) : "-");
+  setText("vol-p75", values.length ? fmtInt(Math.round(percentile(values, 0.75))) : "-");
+  setText("vol-max", values.length ? fmtInt(values[values.length - 1]) : "-");
+}
+
+function previewWeights(){
   const w = getWeights();
 
   const fp = Math.round(w.fit * 100);
@@ -1018,6 +1172,16 @@ function updScore(){
   setText("w-vol", vp + "%");
   setText("w-reg", rp + "%");
 
+  updateVolumeIndicators();
+}
+
+function aplicarPesos(){
+  updScore();
+}
+
+function updScore(){
+  previewWeights();
+
   PROSPECTS = getProspects();
 
   renderProspects();
@@ -1025,7 +1189,6 @@ function updScore(){
   updProspectsKpis();
   renderJanelaOportunidade();
 }
-
 function autoCalibrateWeights(data){
   if(!data || data.length < 3) return;
 
@@ -1071,6 +1234,7 @@ function buildProspect(l, rank){
     seg: l.seg,
     sub: l.sub,
     ramo: l.ramo,
+    materias: getMateriasForLitigante(l),
     novos: l.novos || 0,
     pendentes: l.pendentes || 0,
     delta: l.delta || 0,
@@ -1301,7 +1465,8 @@ function renderProspects(){
 
   list.innerHTML = scored.map(p => {
     const fitN = p.fit || 0;
-    const volN = Math.round(volumeScore(p.novos));
+    const volumeBase = volumeMetricValue(p);
+    const volN = Math.round(volumeScore(volumeBase));
     const regN = pressaoScore(p.seg);
 
     return `
@@ -1325,7 +1490,7 @@ function renderProspects(){
         </div>
         <div style="padding:10px 22px;background:var(--surface2);border-bottom:1px solid var(--border);display:flex;gap:24px;flex-wrap:wrap;font-size:11px;font-family:'JetBrains Mono',monospace;color:var(--gray1);">
           <span>Fit: <strong style="color:var(--orange);">${fitN}</strong>/100</span>
-          <span>Volume: <strong style="color:var(--orange);">${volN}</strong>/100</span>
+          <span>Volume: <strong style="color:var(--orange);">${volN}</strong>/100 <span style="color:var(--gray2);">(${fmtInt(volumeBase)} ${getMetricLabelShort()})</span></span>
           <span>Pressão regulatória: <strong style="color:var(--orange);">${regN}</strong>/100</span>
         </div>
         <div class="pc-body">
@@ -1527,6 +1692,7 @@ function renderDelta(){
 
 /* ========== RENDER GERAL ========== */
 function renderAll(){
+  updateMateriaNote();
   updScore();
   renderUniverso();
   renderRanking();

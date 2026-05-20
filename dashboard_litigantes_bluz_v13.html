@@ -855,8 +855,8 @@ async function carregarDados(){
       dadosDelta = await resDelta.json();
     }
 
-    if(Array.isArray(dadosLit.ALL_LITIGANTES)){
-      ALL_LITIGANTES = dadosLit.ALL_LITIGANTES;
+    if(Array.isArray(dadosLit.ALL_LITIGANTES) && dadosLit.ALL_LITIGANTES.length > 0){
+    ALL_LITIGANTES = dadosLit.ALL_LITIGANTES;
     }
 
     DATA.segmentosBR = dadosLit.segmentosBR || DATA.segmentosBR;
